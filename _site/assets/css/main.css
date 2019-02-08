@@ -924,7 +924,7 @@ button {
       position: absolute;
       top: calc(-3.5rem - 1px);
       left: calc(50% - 1px);
-      width: 1px;
+      width: 0px;
       height: calc(3.5rem + 1px);
       background: #ffffff; }
   #header > :first-child {
