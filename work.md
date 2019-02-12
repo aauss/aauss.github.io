@@ -27,6 +27,22 @@ title: work
 </p>
 
 <p>
+  <h3 class="major" style='max-width:100%'>AR Bus Arrival Board And Delay Prediction </h3>
+  <span class="image fit"><img src="assets/images/ar.png" alt="" /></span>
+  At the Münsterhack 2017 we developed an AR arrival board to allow users the display of real time updated arrival times of busses. Instead of looking at the timetable of the bus station, users are able to just view the arrival times including delays, current traffic information, and other information.
+  Besides, we used the available data to find depature times of the bus lines that are particulary prone to delay. Therefore we used random forests, bus arrival/departure/delay data of the last year, weather, and holiday/event data. We were able to predict in average 2 minutes of all delays that happened.
+  <a href="https://www.youtube.com/watch?v=vgbBKbQQlXQ"> Here </a> is a link of our app.
+</p>
+
+<p>
+  <h3 class="major" style='max-width:100%'> Virtual Assistant For Outbreak Detection Informed By Data Of The Public Health Institute And Google Trends</h3>
+  <span class="image fit"><img src="assets/images/mercura.png" alt="" /></span>
+  We got the opportunity to work with curated data of the Robert Koch Institute, the public health institute of Germany. This data included sympotmatic data of reported cases over the past five years. We trained a classifier that returned a probabilty distribution of disease given symptoms.
+  Together with reported cases by physicians and citizen to the app we are ablte to stack these information and report an emerging outbreak. Physicians and citizen gain more insigth into local emerging outbreaks for reporting their observations/symptoms. To enrich the data, we also included
+  Google Trends data for symptoms that correlated well with reported symptoms of the public health institute. Watch <a href="https://www.youtube.com/watch?v=Cg3RnAeExGo"> this </a> for an example (German).
+</p>
+
+<p>
   <h3 class="major" style='max-width:100%'> Co-found Of The Open Knowledge Lab Osnabrück </h3>
   <span class="image fit"><img src="assets/images/oklab.png" alt="" /></span>
   Together with Rüdiger Busche we found the Open Knowledge Lab in Osnabrück. Here, we had got involved with the local data politics. We managed to get the budget plan of the city.

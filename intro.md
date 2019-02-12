@@ -11,6 +11,11 @@ But, I just continued and endured my parents disapproval. After <em>The Sorzls</
 But music wasn't enough. I also started acting at the **theaterperipherie**. We played
 <a href="https://www.theaterperipherie.de/über-uns/alle-produktionen/blutsbande/"> <strong>Blutsbande></strong></a>,
 <a href="https://www.theaterperipherie.de/über-uns/alle-produktionen/maria-magdalena/"><strong>Maria Magdalena></strong></a>,
-<a href="(https://www.theaterperipherie.de/über-uns/alle-produktionen/haymatlos-ein-liederabend/)"><strong>haymatlos - EIN LIEDERABEND</strong> </a>
+<a href="https://www.theaterperipherie.de/über-uns/alle-produktionen/haymatlos-ein-liederabend/"> <strong>haymatlos - EIN LIEDERABEND</strong> </a>
 <span>, and</span>
 <a href="https://www.theaterperipherie.de/über-uns/alle-produktionen/die-im-dunkeln/"><strong>Die im Dunkeln</strong></a>
+
+<br> </br>
+
+While I eventually stopped playing theater to focus more on school I continued music. Next to <em>notenoughspace</em> I joined the jazz band <em>Subito</em> as a bassist. With <em>Subito</em> we won the prize for second best band among 1000 competitor in 2016 and I won the prize best bassist in the same competition.
+We published two EPs as <em>notenoughspace</em> and one as <em>Subito</em>. Hit me up to buy. <a href="https://www.youtube.com/watch?v=Q3WcS7ojw4w"><strong>Here</strong></a> you can listen to a song of <em>notenoughspace</em> and <a href="https://www.youtube.com/watch?v=ONcTHQ7EwcQ"><strong>here</strong></a> for one from <em>Subito</em>
