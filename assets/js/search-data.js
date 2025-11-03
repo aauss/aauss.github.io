@@ -382,16 +382,14 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+    },{id: "news-nerd-face-new-preprint-out-on-evlauating-temporal-reasoning",
+          title: ':nerd_face: New preprint out on evlauating temporal reasoning!',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-partying-face-i-passed-my-first-year-registration-second-year-i-am-coming",
+          title: ':partying_face: I passed my first year registration. Second year, I am coming!',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-airplane-to-suzhou-for-emnlp-2025-catch-me-between-1-2-pm-in-hall-c-this-wednesday",
+          title: ':airplane: to Suzhou for EMNLP 2025! Catch me between 1–2 pm in Hall...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
