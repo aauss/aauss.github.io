@@ -1,37 +1,51 @@
 ---
 ---
 
-@Article{Bhatia2023,
-author={Bhatia, Sangeeta
-and Imai, Natsuko
-and Watson, Oliver J.
-and Abbood, Auss
-and Abdelmalik, Philip
-and Cornelissen, Thijs
-and Ghozzi, St{\'e}phane
-and Lassmann, Britta
-and Nagesh, Radhika
-and Ragonnet-Cronin, Manon L.
-and Schnitzler, Johannes Christof
-and Kraemer, Moritz UG
-and Cauchemez, Simon
-and Nouvellet, Pierre
-and Cori, Anne},
-title={Lessons from COVID-19 for rescalable data collection},
-journal={The Lancet Infectious Diseases},
-year={2023},
-month={5},
-day={7},
-publisher={Elsevier},
-abstract={Novel data and analyses have had an important role in informing the public health response to the COVID-19 pandemic. Existing surveillance systems were scaled up, and in some instances new systems were developed to meet the challenges posed by the magnitude of the pandemic. We describe the routine and novel data that were used to address urgent public health questions during the pandemic, underscore the challenges in sustainability and equity in data generation, and highlight key lessons learnt for designing scalable data collection systems to support decision making during a public health crisis. As countries emerge from the acute phase of the pandemic, COVID-19 surveillance systems are being scaled down. However, SARS-CoV-2 resurgence remains a threat to global health security; therefore, a minimal cost-effective system needs to remain active that can be rapidly scaled up if necessary. We propose that a retrospective evaluation to identify the cost-benefit profile of the various data streams collected during the pandemic should be on the scientific research agenda.},
-issn={1473-3099},
-doi={10.1016/S1473-3099(23)00121-4},
-url={https://doi.org/10.1016/S1473-3099(23)00121-4},
-  eprint       = {https://www.thelancet.com/action/showPdf?pii=S1473-3099%2823%2900121-4},
-  html         = {https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(23)00121-4/fulltext},
-  pdf          = {rescalabe_covid_data.pdf},
-  preview      = {rescalabe_covid_data.jpg},
-  dimensions   = {true},
+@inproceedings{Abbood2025,
+  title      = {Time to Revisit Exact Match},
+  author     = {Auss Abbood and Zaiqiao Meng and Nigel Collier},
+  booktitle  = {The 2025 Conference on Empirical Methods in Natural Language Processing},
+  year       = {2025},
+  url        = {https://openreview.net/forum?id=6qMv3RYE8d},
+  abstract   = {Temporal question answering is an established method for evaluating temporal reasoning in large language models. Expected answers are often numeric (e.g., dates or durations), yet model responses are evaluated like regular text with exact match (EM), unable to distinguish small from large errors. In this investigative work, we frame temporal question answering as a numerical estimation task to assess the shortcomings of EM. We introduce TempAnswerQA, a benchmark distilled from Test of Time and TempTabQA, where all questions require a numerical, temporal answer, allowing us to evaluate models beyond EM. We use the forecasting metrics symmetric mean absolute percentage error (sMAPE) and mean absolute scaled error (MASE). With sMAPE, we find that error size and EM are decoupled. Models with low EM still have low sMAPE (both ~20%), and some models have high sMAPE despite high EM. Scaling errors by the deviation of the ground truth data with MASE reshuffles model rankings compared to EM, revealing gaps in models' understanding of temporal domain knowledge, especially when trained with synthetic data. Lastly, the models' most frequent error is to deviate by only from the ground truth. sMAPE and MASE, unlike EM, adequately weight these errors. Our findings underscore the need for specialised metrics for temporal QA tasks.},
+  code       = {https://github.com/aauss/temporal-answer-qa},
+  preview    = {TEA.png},
+  pdf        = {tea.pdf},
+  html       = {https://openreview.net/forum?id=1fXwADdru6#discussion},
+  dimensions = {true}
+}
+
+@article{Bhatia2023,
+  author     = {Bhatia, Sangeeta
+                and Imai, Natsuko
+                and Watson, Oliver J.
+                and Abbood, Auss
+                and Abdelmalik, Philip
+                and Cornelissen, Thijs
+                and Ghozzi, St{\'e}phane
+                and Lassmann, Britta
+                and Nagesh, Radhika
+                and Ragonnet-Cronin, Manon L.
+                and Schnitzler, Johannes Christof
+                and Kraemer, Moritz UG
+                and Cauchemez, Simon
+                and Nouvellet, Pierre
+                and Cori, Anne},
+  title      = {Lessons from COVID-19 for rescalable data collection},
+  journal    = {The Lancet Infectious Diseases},
+  year       = {2023},
+  month      = {5},
+  day        = {7},
+  publisher  = {Elsevier},
+  abstract   = {Novel data and analyses have had an important role in informing the public health response to the COVID-19 pandemic. Existing surveillance systems were scaled up, and in some instances new systems were developed to meet the challenges posed by the magnitude of the pandemic. We describe the routine and novel data that were used to address urgent public health questions during the pandemic, underscore the challenges in sustainability and equity in data generation, and highlight key lessons learnt for designing scalable data collection systems to support decision making during a public health crisis. As countries emerge from the acute phase of the pandemic, COVID-19 surveillance systems are being scaled down. However, SARS-CoV-2 resurgence remains a threat to global health security; therefore, a minimal cost-effective system needs to remain active that can be rapidly scaled up if necessary. We propose that a retrospective evaluation to identify the cost-benefit profile of the various data streams collected during the pandemic should be on the scientific research agenda.},
+  issn       = {1473-3099},
+  doi        = {10.1016/S1473-3099(23)00121-4},
+  url        = {https://doi.org/10.1016/S1473-3099(23)00121-4},
+  eprint     = {https://www.thelancet.com/action/showPdf?pii=S1473-3099%2823%2900121-4},
+  html       = {https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(23)00121-4/fulltext},
+  pdf        = {rescalabe_covid_data.pdf},
+  preview    = {rescalabe_covid_data.jpg},
+  dimensions = {true}
 }
 
 @article{Abbood2022evaluation_framework,
@@ -79,44 +93,44 @@ url={https://doi.org/10.1016/S1473-3099(23)00121-4},
 
 @article{Oala2021,
   author     = {Oala, Luis
-  AND Murchison, Andrew G.̱
-  AND Balachandran, Pradeep
-  AND Choudhary, Shruti
-  AND Fehr, Jana
-  AND Leite, Alixandro Werneck
-  AND Goldschmidt, Peter G.
-  AND Johner, Christian
-  AND Sch{\"o}rverth, Elora D. M.
-  AND Nakasi, Rose
-  AND Meyer, Martin
-  AND Cabitza, Federico
-  AND Baird, Pat
-  AND Prabhu, Carolin
-  AND Weicken, Eva
-  AND Liu, Xiaoxuan
-  AND Wenzel, Markus
-  AND Vogler, Steffen
-  AND Akogo, Darlington
-  AND Alsalamah, Shada
-  AND Kazim, Emre
-  AND Koshiyama, Adriano
-  AND Piechottka, Sven
-  AND Macpherson, Sheena
-  AND Shadforth, Ian
-  AND Geierhofer, Regina
-  AND Matek, Christian
-  AND Krois, Joachim
-  AND Sanguinetti, Bruno
-  AND Arentz, Matthew
-  AND Bielik, Pavol
-  AND Calderon-Ramirez, Saul
-  AND Abbood, Auss
-  AND Langer, Nicolas
-  AND Haufe, Stefan
-  AND Kherif, Ferath
-  AND Pujari, Sameer
-  AND Samek, Wojciech
-  AND Wiegand, Thomas},
+                AND Murchison, Andrew G.̱
+                AND Balachandran, Pradeep
+                AND Choudhary, Shruti
+                AND Fehr, Jana
+                AND Leite, Alixandro Werneck
+                AND Goldschmidt, Peter G.
+                AND Johner, Christian
+                AND Sch{\"o}rverth, Elora D. M.
+                AND Nakasi, Rose
+                AND Meyer, Martin
+                AND Cabitza, Federico
+                AND Baird, Pat
+                AND Prabhu, Carolin
+                AND Weicken, Eva
+                AND Liu, Xiaoxuan
+                AND Wenzel, Markus
+                AND Vogler, Steffen
+                AND Akogo, Darlington
+                AND Alsalamah, Shada
+                AND Kazim, Emre
+                AND Koshiyama, Adriano
+                AND Piechottka, Sven
+                AND Macpherson, Sheena
+                AND Shadforth, Ian
+                AND Geierhofer, Regina
+                AND Matek, Christian
+                AND Krois, Joachim
+                AND Sanguinetti, Bruno
+                AND Arentz, Matthew
+                AND Bielik, Pavol
+                AND Calderon-Ramirez, Saul
+                AND Abbood, Auss
+                AND Langer, Nicolas
+                AND Haufe, Stefan
+                AND Kherif, Ferath
+                AND Pujari, Sameer
+                AND Samek, Wojciech
+                AND Wiegand, Thomas},
   title      = {Machine Learning for Health: Algorithm Auditing {\&} Quality Control},
   journal    = {Journal of Medical Systems},
   year       = {2021},
@@ -156,14 +170,14 @@ url={https://doi.org/10.1016/S1473-3099(23)00121-4},
   selected   = {true},
   pdf        = {eventepi.pdf},
   preview    = {eventepi.png},
-  code       = {https://github.com/aauss/EventEpi},
+  code       = {https://github.com/aauss/EventEpi}
 }
 
 @unpusblished{amld2020,
   title   = {EventEpi—A natural language processing framework for event-based surveillance},
   author  = {Abbood, Auss AND Ullrich, Alexander AND Busche, Rüdiger AND Ghozzi, Stéphane},
   year    = {2020},
-  month      = {1},
+  month   = {1},
   note    = {Applied Machine Learning Days},
   url     = {https://appliedmldays.org},
   preview = {AMLD_2020_logo.svg.png},
@@ -174,7 +188,7 @@ url={https://doi.org/10.1016/S1473-3099(23)00121-4},
   title   = {Automatic information extraction and relevance evaluation of epidemiological texts using natural language processing},
   author  = {Abbood, Auss AND Ullrich, Alexander AND Busche, Rüdiger AND Ghozzi, Stéphane},
   year    = {2019},
-  month      = {11},
+  month   = {11},
   note    = {European Scientific Conference on Applied Infectious Disease Epidemiology},
   url     = {https://www.escaide.eu/sites/default/files/documents/ESCAIDE-abstract-book-2019.pdf},
   html    = {https://www.escaide.eu/sites/default/files/documents/ESCAIDE-abstract-book-2019.pdf},
