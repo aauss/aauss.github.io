@@ -465,11 +465,25 @@ ninja.data = [{
           window.open("https://orcid.org/0000-0002-4428-168X", "_blank");
         },
       },{
+        id: 'social-scholar',
+        title: 'Google Scholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=K43mA6AAAAAJ", "_blank");
+        },
+      },{
         id: 'social-stackoverflow',
         title: 'Stackoverflow',
         section: 'Socials',
         handler: () => {
           window.open("https://stackoverflow.com/users/10652408", "_blank");
+        },
+      },{
+        id: 'social-x',
+        title: 'X',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://twitter.com/Auss_Abbood", "_blank");
         },
       },{
       id: 'light-theme',
