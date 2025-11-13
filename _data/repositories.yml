@@ -4,6 +4,7 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
+  - aauss/temporal-answer-qa
   - aauss/epi-quark
   - aauss/EventEpi
   - aauss/reporting_behavior
