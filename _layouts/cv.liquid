@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <style>
   .pdf-embed {
     display: block;
@@ -13,7 +12,7 @@ layout: default
   /* For screens narrower than 768px (typical tablet/phone) */
   @media (max-width: 768px) {
     .pdf-embed {
-      display: none;   /* Hide the embed */
+      display: none; /* Hide the embed */
     }
     .pdf-link {
       display: block; /* Show a direct link instead */
@@ -22,14 +21,14 @@ layout: default
 </style>
 
 <div class="pdf-embed">
-  <object 
+  <object
     data="{{ '/assets/pdf/cv.pdf' | relative_url }}"
     type="application/pdf"
-    width="100%" 
+    width="100%"
     style="height: 80vh;"
   >
     <p>
-      Unable to display the PDF. 
+      Unable to display the PDF.
       <a href="{{ '/assets/pdf/cv.pdf' | relative_url }}">Download here</a>.
     </p>
   </object>
@@ -37,7 +36,7 @@ layout: default
 
 <div class="pdf-link">
   <p>
-    To view my CV, 
+    To view my CV,
     <a href="{{ '/assets/pdf/cv.pdf' | relative_url }}" target="_blank">open this PDF</a>
   </p>
 </div>
