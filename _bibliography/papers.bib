@@ -1,115 +1,215 @@
 ---
 ---
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{Hicketier2026,
+  title = {Ensemble-labeling of infectious disease time series to evaluate early warning systems},
+  journal = {Infectious Disease Modelling},
+  volume = {11},
+  number = {3},
+  pages = {823-839},
+  year = {2026},
+  issn = {2468-0427},
+  doi = {https://doi.org/10.1016/j.idm.2025.12.013},
+  url = {https://www.sciencedirect.com/science/article/pii/S2468042725001368},
+  author = {Andreas Hicketier and Moritz Bach and Philip Oedi and Alexander Ullrich and Auss Abbood},
+  keywords = {Outbreak detection, Early warning system, COVID-19, Surveillance},
+  abstract = {Early warning systems (EWSs) for detecting disease outbreaks can help make informed public health decisions and organize necessary responses. During the COVID-19 pandemic, several EWSs were proposed that use covariates such as mobility or social media data for improved timeliness and precision. Evaluating these EWSs is not trivial, since we do not have the ground truth knowledge about outbreaks of COVID-19. Workarounds for missing labels are to simulate them or produce them post hoc. Simulating COVID-19 outbreaks for evaluation is not feasible with highly complex covariates such as mobility. Furthermore, existing post hoc labeling methods do not perform well on heterogeneous COVID-19 time series. To address this evaluation gap, we propose an adaptive labeling method that produces useful labels (time-indexed annotations marking outbreak-like periods) for highly heterogeneous, nonstationary COVID-19 time series. To this end, we develop a customized ensemble of labeling methods. We find that our method consistently produces useful labels for various outbreak types, such as waves and short peaks occurring at different spatial resolutions. Lastly, we use our self-produced labels to train machine learning models and compare their performance with traditional outbreak detection methods. We find that models trained with our labels outperform classical, unsupervised outbreak detection algorithms.},
+  pdf = {epylabel.pdf},
+  preview = {epylabel.png},
+  dimensions = {true},
+  code = {https://github.com/robert-koch-institut/epylabel}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{Abbood2025,
+  title      = {Time to Revisit Exact Match},
+  author     = {Auss Abbood and Zaiqiao Meng and Nigel Collier},
+  booktitle  = {The 2025 Conference on Empirical Methods in Natural Language Processing},
+  year       = {2025},
+  url        = {https://openreview.net/forum?id=6qMv3RYE8d},
+  abstract   = {Temporal question answering is an established method for evaluating temporal reasoning in large language models. Expected answers are often numeric (e.g., dates or durations), yet model responses are evaluated like regular text with exact match (EM), unable to distinguish small from large errors. In this investigative work, we frame temporal question answering as a numerical estimation task to assess the shortcomings of EM. We introduce TempAnswerQA, a benchmark distilled from Test of Time and TempTabQA, where all questions require a numerical, temporal answer, allowing us to evaluate models beyond EM. We use the forecasting metrics symmetric mean absolute percentage error (sMAPE) and mean absolute scaled error (MASE). With sMAPE, we find that error size and EM are decoupled. Models with low EM still have low sMAPE (both ~20%), and some models have high sMAPE despite high EM. Scaling errors by the deviation of the ground truth data with MASE reshuffles model rankings compared to EM, revealing gaps in models' understanding of temporal domain knowledge, especially when trained with synthetic data. Lastly, the models' most frequent error is to deviate by only from the ground truth. sMAPE and MASE, unlike EM, adequately weight these errors. Our findings underscore the need for specialised metrics for temporal QA tasks.},
+  code       = {https://github.com/aauss/temporal-answer-qa},
+  preview    = {TEA.png},
+  pdf        = {tea.pdf},
+  html       = {https://openreview.net/forum?id=1fXwADdru6#discussion},
+  dimensions = {true}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{Bhatia2023,
+  author     = {Bhatia, Sangeeta
+                and Imai, Natsuko
+                and Watson, Oliver J.
+                and Abbood, Auss
+                and Abdelmalik, Philip
+                and Cornelissen, Thijs
+                and Ghozzi, St{\'e}phane
+                and Lassmann, Britta
+                and Nagesh, Radhika
+                and Ragonnet-Cronin, Manon L.
+                and Schnitzler, Johannes Christof
+                and Kraemer, Moritz UG
+                and Cauchemez, Simon
+                and Nouvellet, Pierre
+                and Cori, Anne},
+  title      = {Lessons from COVID-19 for rescalable data collection},
+  journal    = {The Lancet Infectious Diseases},
+  year       = {2023},
+  month      = {5},
+  day        = {7},
+  publisher  = {Elsevier},
+  abstract   = {Novel data and analyses have had an important role in informing the public health response to the COVID-19 pandemic. Existing surveillance systems were scaled up, and in some instances new systems were developed to meet the challenges posed by the magnitude of the pandemic. We describe the routine and novel data that were used to address urgent public health questions during the pandemic, underscore the challenges in sustainability and equity in data generation, and highlight key lessons learnt for designing scalable data collection systems to support decision making during a public health crisis. As countries emerge from the acute phase of the pandemic, COVID-19 surveillance systems are being scaled down. However, SARS-CoV-2 resurgence remains a threat to global health security; therefore, a minimal cost-effective system needs to remain active that can be rapidly scaled up if necessary. We propose that a retrospective evaluation to identify the cost-benefit profile of the various data streams collected during the pandemic should be on the scientific research agenda.},
+  issn       = {1473-3099},
+  doi        = {10.1016/S1473-3099(23)00121-4},
+  url        = {https://doi.org/10.1016/S1473-3099(23)00121-4},
+  eprint     = {https://www.thelancet.com/action/showPdf?pii=S1473-3099%2823%2900121-4},
+  html       = {https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(23)00121-4/fulltext},
+  pdf        = {rescalabe_covid_data.pdf},
+  preview    = {rescalabe_covid_data.jpg},
+  dimensions = {true}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@article{Abbood2022evaluation_framework,
+  author       = {Abbood, Auss and Ghozzi, St{\'e}phane},
+  title        = {General Framework for Evaluating Outbreak Prediction, Detection, and Annotation Algorithms},
+  elocation-id = {2022.03.16.22272469},
+  year         = {2022},
+  month        = {3},
+  doi          = {10.1101/2022.03.16.22272469},
+  publisher    = {Cold Spring Harbor Laboratory Press},
+  abstract     = {The COVID-19 pandemic has highlighted and accelerated the use of algorithmic-decision support for public health. The latter{\textquoteright}s potential impact and risk of bias and harm urgently call for scrutiny and evaluation standards. One example is the early detection of local infectious disease outbreaks. Whereas many statistical models have been proposed and disparate systems are routinely used, each tai-lored to specific data streams and use, no systematic evaluation strategy of their performance in a real-world context exists.One difficulty in evaluating outbreak prediction, detection, or annotation lies in the scales of different approaches: How to compare slow but fine-grained genetic clustering of individual samples with rapid but coarse anomaly detection based on aggregated syndromic reports? Or alarms generated for different, overlapping geographical regions or demographics?We propose a general, data-driven, user-centric framework for evaluating hetero-geneous outbreak algorithms. Discrete outbreak labels and case counts are defined on a custom data grid, associated target probabilities are then computed and compared with algorithm output. The latter is defined as discrete {\textquotedblleft}signals{\textquotedblright} are generated for a number of grid cells (the finest available in the benchmarking data set) with different weights and prior outbreak information from which then estimated outbreak label probabilities are derived. The prediction performance is quantified through a series of metrics, including confusion matrix, regression scores, and mutual information. The dimensions of the data grid can be weighted by the user to reflect epidemiological criteria.},
+  url          = {https://www.medrxiv.org/content/early/2022/03/21/2022.03.16.22272469},
+  eprint       = {https://www.medrxiv.org/content/early/2022/03/21/2022.03.16.22272469.full.pdf},
+  journal      = {medRxiv},
+  html         = {https://www.medrxiv.org/content/10.1101/2022.03.16.22272469v2},
+  pdf          = {epi-quark.pdf},
+  preview      = {epi-quark.png},
+  dimensions   = {true},
+  altmetric    = {124902096},
+  code         = {https://github.com/aauss/epi-quark}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{abbood2022reporting_behavior,
+  author       = {Abbood, Auss and Ullrich, Alexander and Denkel, Luisa A},
+  title        = {Understanding COVID-19 reporting behaviour to support political decision-making: a retrospective cross-sectional study of COVID-19 data reported to WHO},
+  volume       = {13},
+  number       = {1},
+  elocation-id = {e061717},
+  year         = {2023},
+  month        = {1},
+  doi          = {10.1136/bmjopen-2022-061717},
+  publisher    = {British Medical Journal Publishing Group},
+  abstract     = {Objective Daily COVID-19 data reported by WHO may provide the basis for political ad hoc decisions including travel restrictions. Data reported by countries, however, are heterogeneous and metrics to evaluate its quality are scarce. In this work, we analysed COVID-19 case counts provided by WHO and developed tools to evaluate country-specific reporting behaviours.Methods In this retrospective cross-sectional study, COVID-19 data reported daily to WHO from 3 January 2020 until 14 June 2021 were analysed. We proposed the concepts of binary reporting rate and relative reporting behaviour and performed descriptive analyses for all countries with these metrics. We developed a score to evaluate the consistency of incidence and binary reporting rates. Further, we performed spectral clustering of the binary reporting rate and relative reporting behaviour to identify salient patterns in these metrics.Results Our final analysis included 222 countries and regions. Reporting scores varied between -0.17, indicating discrepancies between incidence and binary reporting rate, and 1.0 suggesting high consistency of these two metrics. Median reporting score for all countries was 0.71 (IQR 0.55{\textendash}0.87). Descriptive analyses of the binary reporting rate and relative reporting behaviour showed constant reporting with a slight {\textquoteleft}weekend effect{\textquoteright} for most countries, while spectral clustering demonstrated that some countries had even more complex reporting patterns.Conclusion The majority of countries reported COVID-19 cases when they did have cases to report. The identification of a slight {\textquoteleft}weekend effect{\textquoteright} suggests that COVID-19 case counts reported in the middle of the week may represent the best data basis for political ad hoc decisions. A few countries, however, showed unusual or highly irregular reporting that might require more careful interpretation. Our score system and cluster analyses might be applied by epidemiologists advising policy makers to consider country-specific reporting behaviours in political ad hoc decisions.Data are available in a public, open access repository. Extra data can be accessed via the Dryad data repository at http://datadryad.org/withthedoi:10.5061/dryad.9s4mw6mmb and from GitHub at https://github.com/aauss/reporting_behavior.},
+  issn         = {2044-6055},
+  url          = {https://bmjopen.bmj.com/content/13/1/e061717},
+  eprint       = {https://bmjopen.bmj.com/content/13/1/e061717.full.pdf},
+  journal      = {BMJ Open},
+  html         = {https://bmjopen.bmj.com/content/13/1/e061717},
+  pdf          = {reporting_behavior_2022.pdf},
+  preview      = {reporting_behavior_2022.png},
+  altmetric    = {140983903},
+  dimensions   = {true},
+  code         = {https://github.com/aauss/reporting_behavior}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{Oala2021,
+  author     = {Oala, Luis
+                AND Murchison, Andrew G.̱
+                AND Balachandran, Pradeep
+                AND Choudhary, Shruti
+                AND Fehr, Jana
+                AND Leite, Alixandro Werneck
+                AND Goldschmidt, Peter G.
+                AND Johner, Christian
+                AND Sch{\"o}rverth, Elora D. M.
+                AND Nakasi, Rose
+                AND Meyer, Martin
+                AND Cabitza, Federico
+                AND Baird, Pat
+                AND Prabhu, Carolin
+                AND Weicken, Eva
+                AND Liu, Xiaoxuan
+                AND Wenzel, Markus
+                AND Vogler, Steffen
+                AND Akogo, Darlington
+                AND Alsalamah, Shada
+                AND Kazim, Emre
+                AND Koshiyama, Adriano
+                AND Piechottka, Sven
+                AND Macpherson, Sheena
+                AND Shadforth, Ian
+                AND Geierhofer, Regina
+                AND Matek, Christian
+                AND Krois, Joachim
+                AND Sanguinetti, Bruno
+                AND Arentz, Matthew
+                AND Bielik, Pavol
+                AND Calderon-Ramirez, Saul
+                AND Abbood, Auss
+                AND Langer, Nicolas
+                AND Haufe, Stefan
+                AND Kherif, Ferath
+                AND Pujari, Sameer
+                AND Samek, Wojciech
+                AND Wiegand, Thomas},
+  title      = {Machine Learning for Health: Algorithm Auditing {\&} Quality Control},
+  journal    = {Journal of Medical Systems},
+  year       = {2021},
+  month      = {Nov},
+  day        = {02},
+  volume     = {45},
+  number     = {12},
+  pages      = {105},
+  abstract   = {Developers proposing new machine learning for health (ML4H) tools often pledge to match or even surpass the performance of existing tools, yet the reality is usually more complicated. Reliable deployment of ML4H to the real world is challenging as examples from diabetic retinopathy or Covid-19 screening show. We envision an integrated framework of algorithm auditing and quality control that provides a path towards the effective and reliable application of ML systems in healthcare. In this editorial, we give a summary of ongoing work towards that vision and announce a call for participation to the special issue  Machine Learning for Health: Algorithm Auditing {\&} Quality Control in this journal to advance the practice of ML4H auditing.},
+  issn       = {1573-689X},
+  doi        = {10.1007/s10916-021-01783-y},
+  url        = {https://doi.org/10.1007/s10916-021-01783-y},
+  html       = {https://link.springer.com/article/10.1007/s10916-021-01783-y},
+  pdf        = {healthaudit_2021.pdf},
+  preview    = {healthaudit_2021.png},
+  altmetric  = {116193599},
+  dimensions = {true}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@article{abbood2020eventepi,
+  abbr       = {PLOSCompBiol},
+  doi        = {10.1371/journal.pcbi.1008277},
+  author     = {Abbood, Auss AND Ullrich, Alexander AND Busche, Rüdiger AND Ghozzi, Stéphane},
+  journal    = {PLOS Computational Biology},
+  publisher  = {Public Library of Science},
+  title      = {EventEpi—A natural language processing framework for event-based surveillance},
+  year       = {2020},
+  month      = {11},
+  volume     = {16},
+  url        = {https://doi.org/10.1371/journal.pcbi.1008277},
+  html       = {https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008277},
+  pages      = {1-16},
+  abstract   = {According to the World Health Organization (WHO), around 60{%} of all outbreaks are detected using informal sources. In many public health institutes, including the WHO and the Robert Koch Institute (RKI), dedicated groups of public health agents sift through numerous articles and newsletters to detect relevant events. This media screening is one important part of event-based surveillance (EBS). Reading the articles, discussing their relevance, and putting key information into a database is a time-consuming process. To support EBS, but also to gain insights into what makes an article and the event it describes relevant, we developed a natural language processing framework for automated information extraction and relevance scoring. First, we scraped relevant sources for EBS as done at the RKI (WHO Disease Outbreak News and ProMED) and automatically extracted the articles’ key data: disease, country, date, and confirmed-case count. For this, we performed named entity recognition in two steps: EpiTator, an open-source epidemiological annotation tool, suggested many different possibilities for each. We extracted the key country and disease using a heuristic with good results. We trained a naive Bayes classifier to find the key date and confirmed-case count, using the RKI’s EBS database as labels which performed modestly. Then, for relevance scoring, we defined two classes to which any article might belong: The article is relevant if it is in the EBS database and irrelevant otherwise. We compared the performance of different classifiers, using bag-of-words, document and word embeddings. The best classifier, a logistic regression, achieved a sensitivity of 0.82 and an index balanced accuracy of 0.61. Finally, we integrated these functionalities into a web application called EventEpi where relevant sources are automatically analyzed and put into a database. The user can also provide any URL or text, that will be analyzed in the same way and added to the database. Each of these steps could be improved, in particular with larger labeled datasets and fine-tuning of the learning algorithms. The overall framework, however, works already well and can be used in production, promising improvements in EBS. The source code and data are publicly available under open licenses.},
+  number     = {11},
+  altmetric  = {94671678},
+  dimensions = {true},
+  selected   = {true},
+  pdf        = {eventepi.pdf},
+  preview    = {eventepi.png},
+  code       = {https://github.com/aauss/EventEpi}
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+@unpusblished{amld2020,
+  title   = {EventEpi—A natural language processing framework for event-based surveillance},
+  author  = {Abbood, Auss AND Ullrich, Alexander AND Busche, Rüdiger AND Ghozzi, Stéphane},
+  year    = {2020},
+  month   = {1},
+  note    = {Applied Machine Learning Days},
+  url     = {https://appliedmldays.org},
+  preview = {AMLD_2020_logo.svg.png},
+  pdf     = {EventEpi_poster_AMLD_2020.pdf}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@unpusblished{escaide2019,
+  title   = {Automatic information extraction and relevance evaluation of epidemiological texts using natural language processing},
+  author  = {Abbood, Auss AND Ullrich, Alexander AND Busche, Rüdiger AND Ghozzi, Stéphane},
+  year    = {2019},
+  month   = {11},
+  note    = {European Scientific Conference on Applied Infectious Disease Epidemiology},
+  url     = {https://www.escaide.eu/sites/default/files/documents/ESCAIDE-abstract-book-2019.pdf},
+  html    = {https://www.escaide.eu/sites/default/files/documents/ESCAIDE-abstract-book-2019.pdf},
+  preview = {logo-escaide.png},
+  pdf     = {event_epi_escaide2019.pdf}
 }
