@@ -16,13 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-repositories",
-          title: "Repositories",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-cv",
           title: "CV",
           description: "",
@@ -388,8 +381,17 @@ ninja.data = [{
           section: "News",},{id: "news-partying-face-i-passed-my-first-year-registration-second-year-i-am-coming",
           title: ':partying_face: I passed my first year registration. Second year, I am coming!',
           description: "",
+          section: "News",},{id: "news-i-am-ta-ing-and-supervising-undergrads-in-li18-this-term-computational-linguistics",
+          title: 'I am TA-ing and supervising undergrads in Li18 this term (computational linguistics)',
+          description: "",
           section: "News",},{id: "news-airplane-to-suzhou-for-emnlp-2025-catch-me-between-1-2-pm-in-hall-c-this-wednesday",
           title: ':airplane: to Suzhou for EMNLP 2025! Catch me between 1–2 pm in Hall...',
+          description: "",
+          section: "News",},{id: "news-just-gave-my-first-lecture-in-li18-on-distributional-semantics-as-a-stand-in-was-a-lot-of-fun",
+          title: 'Just gave my first lecture in Li18 on distributional semantics as a stand-in....',
+          description: "",
+          section: "News",},{id: "news-journal-article-out-on-ensemble-labeling-of-infectious-disease-time-series-mask",
+          title: 'Journal article out on ensemble-labeling of infectious disease time series :mask:',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
