@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-06'
+  last_updated: '2026-03-09'
 papers:
   K43mA6AAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -21,10 +21,6 @@ papers:
     citations: 30
     title: "EventEpi\u2014A natural language processing framework for event-based surveillance"
     year: '2020'
-  K43mA6AAAAAJ:Y0pCki6q_DkC:
-    citations: 0
-    title: Infectious Disease Modelling
-    year: '2026'
   K43mA6AAAAAJ:d1gkVwhDpl0C:
     citations: 2
     title: 'Understanding COVID-19 reporting behaviour to support political decision-making: a retrospective cross-sectional study of COVID-19 data reported to WHO'
