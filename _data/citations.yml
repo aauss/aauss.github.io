@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-09'
+  last_updated: '2026-03-23'
 papers:
   K43mA6AAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -10,7 +10,7 @@ papers:
     title: Lessons from COVID-19 for rescalable data collection (May, 10.1016/S1473-3099 (23) 00121-4, 2023)
     year: '2023'
   K43mA6AAAAAJ:IjCSPb-OGe4C:
-    citations: 1
+    citations: 2
     title: The power of simplicity in LLM-based event forecasting
     year: '2025'
   K43mA6AAAAAJ:Tyk-4Ss8FVUC:
