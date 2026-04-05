@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Just gave my first lecture in Li18 on distributional semantics as a stand-in. Was a lot of fun! 
+Just gave my first lecture in Li18 on distributional semantics as a stand-in. Was a lot of fun!
