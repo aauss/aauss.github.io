@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-27'
+  last_updated: '2026-05-08'
 papers:
   K43mA6AAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -14,7 +14,7 @@ papers:
     title: The power of simplicity in LLM-based event forecasting
     year: '2025'
   K43mA6AAAAAJ:Tyk-4Ss8FVUC:
-    citations: 69
+    citations: 70
     title: 'Machine learning for health: algorithm auditing & quality control'
     year: '2021'
   K43mA6AAAAAJ:UeHWp8X0CEIC:
