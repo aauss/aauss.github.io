@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-01'
+  last_updated: '2026-07-24'
 papers:
   K43mA6AAAAAJ:2osOgNQ5qMEC:
     citations: 0
@@ -14,11 +14,11 @@ papers:
     title: The power of simplicity in LLM-based event forecasting
     year: '2025'
   K43mA6AAAAAJ:Tyk-4Ss8FVUC:
-    citations: 72
+    citations: 73
     title: 'Machine learning for health: algorithm auditing & quality control'
     year: '2021'
   K43mA6AAAAAJ:UeHWp8X0CEIC:
-    citations: 33
+    citations: 34
     title: "EventEpi\u2014A natural language processing framework for event-based surveillance"
     year: '2020'
   K43mA6AAAAAJ:d1gkVwhDpl0C:
