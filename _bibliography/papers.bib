@@ -23,10 +23,11 @@
 @inproceedings{Abbood2025,
   title      = {Time to Revisit Exact Match},
   author     = {Auss Abbood and Zaiqiao Meng and Nigel Collier},
-  booktitle  = {The 2025 Conference on Empirical Methods in Natural Language Processing},
+  booktitle  = {Findings of the Association for Computational Linguistics: EMNLP},
+  pages      = {11903--11926},
   year       = {2025},
-  url        = {https://openreview.net/forum?id=6qMv3RYE8d},
-  abstract   = {Temporal question answering is an established method for evaluating temporal reasoning in large language models. Expected answers are often numeric (e.g., dates or durations), yet model responses are evaluated like regular text with exact match (EM), unable to distinguish small from large errors. In this investigative work, we frame temporal question answering as a numerical estimation task to assess the shortcomings of EM. We introduce TempAnswerQA, a benchmark distilled from Test of Time and TempTabQA, where all questions require a numerical, temporal answer, allowing us to evaluate models beyond EM. We use the forecasting metrics symmetric mean absolute percentage error (sMAPE) and mean absolute scaled error (MASE). With sMAPE, we find that error size and EM are decoupled. Models with low EM still have low sMAPE (both ~20%), and some models have high sMAPE despite high EM. Scaling errors by the deviation of the ground truth data with MASE reshuffles model rankings compared to EM, revealing gaps in models' understanding of temporal domain knowledge, especially when trained with synthetic data. Lastly, the models' most frequent error is to deviate by only from the ground truth. sMAPE and MASE, unlike EM, adequately weight these errors. Our findings underscore the need for specialised metrics for temporal QA tasks.},
+  url        = {https://aclanthology.org/2025.findings-emnlp.637/},
+  abstract   = {Temporal question answering is an established method for evaluating temporal reasoning in large language models. Expected answers are often numeric (e.g., dates or durations), yet model responses are evaluated like regular text with exact match (EM), unable to distinguish small from large errors. In this investigative work, we frame temporal question answering as a numerical estimation task to assess the shortcomings of EM. We introduce TempAnswerQA, a benchmark distilled from Test of Time and TempTabQA, where all questions require a numerical, temporal answer, allowing us to evaluate models beyond EM. We use the forecasting metrics symmetric mean absolute percentage error (sMAPE) and mean absolute scaled error (MASE). With sMAPE, we find that error size and EM are decoupled. Models with low EM still have low sMAPE (both ~20%), and some models have high sMAPE despite high EM. Scaling errors by the deviation of the ground truth data with MASE reshuffles model rankings compared to EM, revealing gaps in models' understanding of temporal domain knowledge, especially when trained with synthetic data. Lastly, the models' most frequent error is to deviate by only ±1 from the ground truth. sMAPE and MASE, unlike EM, adequately weight these errors. Our findings underscore the need for specialised metrics for temporal QA tasks.},
   code       = {https://github.com/aauss/temporal-answer-qa},
   preview    = {TEA.png},
   pdf        = {tea.pdf},
@@ -54,6 +55,9 @@
                 and Cori, Anne},
   title      = {Lessons from COVID-19 for rescalable data collection},
   journal    = {The Lancet Infectious Diseases},
+  volume     = {23},
+  number     = {9},
+  pages      = {e383--e388},
   year       = {2023},
   month      = {5},
   day        = {7},
@@ -184,9 +188,9 @@
   year       = {2020},
   month      = {11},
   volume     = {16},
-  url        = {10.1371/journal.pcbi.1008277},
+  url        = {https://doi.org/10.1371/journal.pcbi.1008277},
   html       = {https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1008277},
-  pages      = {1-16},
+  pages      = {e1008277},
   abstract   = {According to the World Health Organization (WHO), around 60{%} of all outbreaks are detected using informal sources. In many public health institutes, including the WHO and the Robert Koch Institute (RKI), dedicated groups of public health agents sift through numerous articles and newsletters to detect relevant events. This media screening is one important part of event-based surveillance (EBS). Reading the articles, discussing their relevance, and putting key information into a database is a time-consuming process. To support EBS, but also to gain insights into what makes an article and the event it describes relevant, we developed a natural language processing framework for automated information extraction and relevance scoring. First, we scraped relevant sources for EBS as done at the RKI (WHO Disease Outbreak News and ProMED) and automatically extracted the articles’ key data: disease, country, date, and confirmed-case count. For this, we performed named entity recognition in two steps: EpiTator, an open-source epidemiological annotation tool, suggested many different possibilities for each. We extracted the key country and disease using a heuristic with good results. We trained a naive Bayes classifier to find the key date and confirmed-case count, using the RKI’s EBS database as labels which performed modestly. Then, for relevance scoring, we defined two classes to which any article might belong: The article is relevant if it is in the EBS database and irrelevant otherwise. We compared the performance of different classifiers, using bag-of-words, document and word embeddings. The best classifier, a logistic regression, achieved a sensitivity of 0.82 and an index balanced accuracy of 0.61. Finally, we integrated these functionalities into a web application called EventEpi where relevant sources are automatically analyzed and put into a database. The user can also provide any URL or text, that will be analyzed in the same way and added to the database. Each of these steps could be improved, in particular with larger labeled datasets and fine-tuning of the learning algorithms. The overall framework, however, works already well and can be used in production, promising improvements in EBS. The source code and data are publicly available under open licenses.},
   number     = {11},
   altmetric  = {94671678},
@@ -198,7 +202,7 @@
   bibtex_show = {true}
 }
 
-@unpusblished{amld2020,
+@unpublished{amld2020,
   title   = {EventEpi—A natural language processing framework for event-based surveillance},
   author  = {Abbood, Auss AND Ullrich, Alexander AND Busche, Rüdiger AND Ghozzi, Stéphane},
   year    = {2020},
@@ -210,7 +214,7 @@
   bibtex_show = {true}
 }
 
-@unpusblished{escaide2019,
+@unpublished{escaide2019,
   title   = {Automatic information extraction and relevance evaluation of epidemiological texts using natural language processing},
   author  = {Abbood, Auss AND Ullrich, Alexander AND Busche, Rüdiger AND Ghozzi, Stéphane},
   year    = {2019},
